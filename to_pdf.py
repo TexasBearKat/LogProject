@@ -19,7 +19,7 @@ with pdf.table(
     borders_layout="SINGLE_TOP_LINE",
     headings_style=headings_style,
     line_height=5.8,
-    text_align=("LEFT", "LEFT", "LEFT", "LEFT", "LEFT", "LEFT", "LEFT", "LEFT"),
+    text_align=("RIGHT", "LEFT", "RIGHT", "LEFT", "RIGHT", "LEFT", "RIGHT", "LEFT"),
     width=160,
     first_row_as_headings=False,
 ) as table:
